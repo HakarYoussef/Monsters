@@ -1,0 +1,17 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+  box-shadow: 4px 8px 53px -21px rgba(123, 123, 145, 0.51);
+  -webkit-box-shadow: 4px 8px 53px -21px rgba(123, 123, 145, 0.51);
+  -moz-box-shadow: 4px 8px 53px -21px rgba(123, 123, 145, 0.51);
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
